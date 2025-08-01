@@ -1,0 +1,17 @@
+.privacy {
+    transition: color 0.3s ease;
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+.privacy:hover {
+    color: #FF5E1A;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer a {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}

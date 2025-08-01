@@ -1,0 +1,8 @@
+@media (max-width: 576px) {
+  .rounded-pill {
+    border-radius: 0.375rem !important; /* Makes it less rounded on mobile */
+  }
+  .input-group-text {
+    padding-left: 1rem !important;
+  }
+}

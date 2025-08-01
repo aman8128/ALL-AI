@@ -1,0 +1,125 @@
+.custom-navbar{
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.custom-nav:hover{
+    color: #000000 !important;
+}
+
+.font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 65px;
+}
+
+.font1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
+
+.hover-dropdown {
+  position: relative;
+}
+
+.hover-dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-10%);
+  z-index: 1000;
+  min-width: 320px;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 12px;
+  background-color: #fff;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.08) , 0px 4px 8px rgba(0, 0, 0, 0.04);
+}
+
+.hover-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Dropdown item layout */
+.custom-dropdown-item {
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #212529;
+  transition: background 0.2s;
+}
+
+.custom-dropdown-item:hover {
+  background-color: #f1f3f5;
+}
+
+/* Icon style */
+.custom-dropdown-item .icon {
+  font-size: 24px;
+  color: #6c63ff;
+  background-color: #eef1ff;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+/* Title and subtitle */
+.custom-dropdown-item .title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.custom-dropdown-item .subtitle {
+  font-size: 13px;
+  color: #6c757d;
+}
+
+.hover-effect {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.hover-effect:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.filter-card.active {
+  border-color: var(--bs-primary) !important;
+}
+
+.filter-chip {
+  transition: all 0.2s ease;
+}
+
+.hover-effect {
+    transition: all 0.3s ease;
+}
+.hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+}
+.icon-circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-primary-light {
+    background-color: rgba(13, 110, 253, 0.1);
+}
+.bg-info-light {
+    background-color: rgba(13, 202, 240, 0.1);
+}
+.bg-warning-light {
+    background-color: rgba(255, 193, 7, 0.1);
+}
+.bg-gradient-light {
+    background: linear-gradient(to right, #f8f9fa, white);
+}
